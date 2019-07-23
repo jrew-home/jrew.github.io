@@ -1,0 +1,119 @@
+body {
+    color: #444444;
+    background-color: #FAFAFA;
+}
+
+
+.mdl-layout__header,
+.mdl-layout__header .mdl-layout__drawer-button,
+.mdl-layout__header-row .mdl-navigation__link {
+    background: #FAFAFA;
+    color: #444444;
+}
+.mdl-layout__header {
+    box-shadow: none;
+    border-bottom: 5px solid #EEEEEE;    
+}
+
+
+.banner {
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    border-top: 5px solid #EEEEEE;
+    border-bottom: 5px solid #EEEEEE;
+}
+
+
+#intro .banner {
+    padding: 4.5rem 1rem;
+    margin-bottom: 4.5rem;
+    border-top: none;
+}
+
+
+#intro .banner::before {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: .2;
+    background: url('background.jpg') center / cover;
+    content: "";
+}
+
+
+#skills .banner::before {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: .2;
+    background: url('skills.jpg') center / cover;
+    content: "";
+}
+
+
+#experience .banner::before {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: .2;
+    background: url('experience.jpg') center / cover;
+    content: "";
+}
+
+
+#portfolio .banner::before {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: .2;
+    background: url('portfolio.jpg') center / cover;
+    content: "";
+}
+
+.banner h1 {
+    font-size: 2.6rem;
+}
+
+.banner h2 {
+    font-size: 2.2rem;
+}
+
+#experience .dates {
+    font-style: italic;
+}
+
+#portfolio .mdl-card__supporting-text {
+    min-height: 250px;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 3rem auto;
+}
+
+
+.full-width {
+    width: 100%;
+}
+
+
+footer p {
+    text-align: center;
+}
+
+footer .credits {
+    line-height: 2em;
+}
