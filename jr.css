@@ -24,9 +24,14 @@ body {
     border-bottom: 5px solid #EEEEEE;
 }
 
+.profile {
+    border-radius: 50%;
+    border: 5px solid #EEEEEE;
+    max-width: 200px;
+}
 
 #intro .banner {
-    padding: 4.5rem 1rem;
+    padding: 1rem;
     margin-bottom: 4.5rem;
     border-top: none;
 }
