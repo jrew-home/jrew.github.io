@@ -114,11 +114,13 @@ body {
     margin: 3rem auto;
 }
 
+.intro-line {
+    text-align: center;
+}
 
 .full-width {
     width: 100%;
 }
-
 
 footer p {
     text-align: center;
