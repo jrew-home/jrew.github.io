@@ -9,6 +9,7 @@ html, body {
 
 body {
     min-height: 100%;
+    background: #f0f0f0;
 }
 
 main section:last-child {
@@ -16,7 +17,7 @@ main section:last-child {
 }
 
 a {
-  color: #ffffff;
+  color: #333333;
   text-decoration: none;
 } 
 
@@ -34,6 +35,10 @@ header h1 {
   text-transform: uppercase;
 }
 
+header a {
+  color: #ffffff;
+}
+
 section article {
   margin: 0 auto;
   max-width: 1024px;
@@ -41,14 +46,14 @@ section article {
 }
 
 .banner {
-  background: #f0f0f0;
+  background-image: linear-gradient(#cccccc, #f0f0f0);
 }
 
 .banner img {
   display: block;
-  margin: 2rem auto;
+  margin: 1rem auto;
   border-radius: 50%;
-  border: 5px solid #ff5400;
+  box-shadow: 0 0 2px #aaaaaa;
 }
 
 .split {
@@ -59,28 +64,45 @@ section article {
   flex: 1 0 50%;
 }
 
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .boxes .box {
-  display: inline-block;
-  width: calc(50% - 3rem);
-  margin: 1rem 0;
+  display: block;
+  flex: 1 0 50%;
+  margin: 1rem;
+  background: #ffffff;
+  border-radius: .5rem;
+  position: relative;
+  transition: 100ms transform;
 }
 
 .boxes .box h4 {
-  cursor: pointer;
   color: #ffffff;
-  border-radius: .5rem;
   background: #ff5400;
   padding: 1rem;
   margin: 0;
   transition: opacity 200ms linear;
+  border-radius: .5rem .5rem 0 0;
 }
 
 .boxes .box p {
   margin: 1rem;
 }
 
-.boxes .box p a {
-  color: #333333;
+.boxes .box .indicator {
+  position: absolute;
+  top: 2px;
+  right: 1rem;
+  color: #ffffff;
+  font-size: 2rem;
+}
+
+.boxes .box:hover {
+  text-decoration: none;
+  transform: scale(1.02);
 }
 
 footer {
@@ -91,6 +113,10 @@ footer {
   background: #ff5400;
   color: #ffffff;
   text-align: center;
+}
+
+footer a {
+  color: #ffffff;
 }
 
 @media only screen and (max-width: 600px) {
