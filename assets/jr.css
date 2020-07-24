@@ -54,10 +54,14 @@ section article {
 
 .split {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .split div {
-  flex: 1 0 50%;
+  flex: 0 1 300px;
+  max-width: 300px;
 }
 
 .boxes {
