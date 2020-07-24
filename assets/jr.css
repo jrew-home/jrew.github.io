@@ -62,6 +62,7 @@ section article {
 .split div {
   flex: 0 1 300px;
   max-width: 300px;
+  text-align: center;
 }
 
 .boxes {
