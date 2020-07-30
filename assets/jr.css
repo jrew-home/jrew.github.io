@@ -22,7 +22,7 @@ a:hover {
 }
 
 header {
-  background: #557a95;
+  background: #d62828;
   color: #FFFFFF;
 }
 
@@ -82,7 +82,7 @@ section article {
 
 .boxes .box h4 {
   color: #ffffff;
-  background: #557a95;
+  background: #d62828;
   padding: 1rem;
   margin: 0;
   transition: opacity 200ms linear;
