@@ -46,7 +46,6 @@ body {
     border-top: none;
 }
 
-
 #intro .banner::before {
     position: absolute;
     left: 0;
@@ -55,8 +54,12 @@ body {
     bottom: 0;
     z-index: -1;
     opacity: .2;
-    background: url('background.jpg') center / cover;
+    background: url('intro.jpg') center / cover;
     content: "";
+}
+
+#intro .cta {
+    padding-top: 2rem;
 }
 
 #skills .banner::before {
