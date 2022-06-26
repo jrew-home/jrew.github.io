@@ -1,0 +1,38 @@
+---
+layout: normal
+title: Jonathan Rewcastle
+---
+<section class="banner">
+  <article class="split">
+    <div>
+      <img src="assets/jonathan.jpeg" title="Jonathan Rewcastle">
+    </div>
+    <div>
+      <p>Software Engineer from Newcastle upon Tyne with a passion for the outdoors, running, cycling, walking and photography.</p>
+    </div>
+  </article>
+</section>
+<section>
+  <article class="boxes">
+    <a class="box" title="Mobile Apps" href="https://apps.jonathanrewcastle.co.uk/" target="_blank">
+      <h4>Mobile Apps</h4>
+      <p>Fun, Educational and Useful Mobile Apps</p>
+      <div class="indicator">›</div>
+    </a>
+    <a class="box" title="Photography" href="https://j-rew.picfair.com/" target="_blank">
+      <h4>Photography</h4>
+      <p>Picfair Photography Site and Store</p>
+      <div class="indicator">›</div>
+    </a>
+    <a class="box" title="Videos" href="https://www.youtube.com/channel/UCHKnf1Q6alywJjSHLaXyNpA/" target="_blank">
+      <h4>Videos</h4>
+      <p>Videos on YouTube</p>
+      <div class="indicator">›</div>
+    </a>
+    <a class="box" title="My CV" href="cv">
+      <h4>My CV</h4>
+      <p>Skills, Experience and Employment History</p>
+      <div class="indicator">›</div>
+    </a>
+  </article>
+</section>
