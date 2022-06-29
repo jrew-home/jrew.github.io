@@ -21,6 +21,10 @@ body {
     text-decoration: none;
 }
 
+.mdl-navigation__link, a {
+    cursor: pointer;
+}
+
 .jr-button {
     padding: 1rem 3.5rem 1rem 1.5rem;
     border-radius: 25px;
@@ -113,6 +117,9 @@ body {
     content: "";
 }
 
+#experience a {
+    text-decoration: underline;
+}
 
 #portfolio .banner::before {
     position: absolute;
