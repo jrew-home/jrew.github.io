@@ -20,6 +20,17 @@ body {
     text-decoration: none;
 }
 
+.jr-button {
+    padding: 1rem 2.5rem;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.jr-button-primary {
+    background: rgb(63,81,181);
+    color: rgb(255, 255, 255);
+}
+
 .banner {
     text-align: center;
     padding: 1rem;
@@ -59,7 +70,7 @@ body {
 }
 
 #intro .cta {
-    padding-top: 2rem;
+    padding-top: 3rem;
 }
 
 #skills .banner::before {
