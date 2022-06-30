@@ -43,11 +43,14 @@ body {
     background: rgba(63,81,181, 0.95);
 }
 
-
 .jr-button .material-icons {
     position: absolute;
     right: 1rem;
     top: 10px;
+}
+
+.jr-cta .jr-button {
+    margin: .5rem;
 }
 
 .banner {
