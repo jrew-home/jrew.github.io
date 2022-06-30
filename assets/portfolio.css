@@ -88,10 +88,6 @@ body {
     content: "";
 }
 
-#intro .cta {
-    padding-top: 3rem;
-}
-
 #skills .banner::before {
     position: absolute;
     left: 0;
@@ -103,7 +99,6 @@ body {
     background: url('skills.jpg') center / cover;
     content: "";
 }
-
 
 #experience .banner::before {
     position: absolute;
@@ -151,7 +146,7 @@ body {
 
 .container {
     max-width: 1024px;
-    margin: 3rem auto;
+    margin: 1rem auto;
 }
 
 .intro-line {
