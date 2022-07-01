@@ -53,6 +53,19 @@ body {
     margin: .5rem;
 }
 
+.jr-badges {
+    text-align: center;
+}
+
+.jr-skills {
+    padding: 0 1rem;
+}
+
+.jr-intro-chip, .jr-intro-chip:focus, .jr-intro-chip:active {
+    background: none;
+    box-shadow: none;
+}
+
 .banner {
     text-align: center;
     padding: 1rem;
